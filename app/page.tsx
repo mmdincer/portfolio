@@ -19,7 +19,7 @@ import { ProjectCard } from "@/components/project-card"
 import { useState, useEffect } from "react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { TechStack } from "@/components/tech-stack"
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { useToast } from "@/components/ui/use-toast"
 import { Toaster } from "@/components/ui/toaster"
 
@@ -129,7 +129,7 @@ export default function Home() {
 
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="text-center md:text-left">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">{t.greeting}</h1>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">{t.greeting}</h1>
                 <div className="flex items-center justify-center md:justify-start gap-2 mb-6">
                   <span className="h-2 w-2 bg-green-500 rounded-full"></span>
                   <span className="text-green-600 dark:text-green-400">{t.available}</span>
@@ -157,6 +157,7 @@ export default function Home() {
                         </Button>
                       </DialogTrigger>
                       <DialogContent className="max-w-4xl max-h-[90vh] overflow-auto">
+                        <DialogTitle className="sr-only">{t.showCV}</DialogTitle>
                         <div className="p-4">
                           <iframe src={language === "tr" ? "/cv-tr.pdf" : "/cv-en.pdf"} className="w-full h-[70vh]" />
                         </div>

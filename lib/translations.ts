@@ -47,7 +47,7 @@ export const translations = {
       "I have a strong foundation in backend development and experience with various AI projects in Python. My algorithm knowledge has been strengthened through exercises on platforms like LeetCode. I have experience in API development and RESTful architecture with technologies like Node.js and .Net Core. I am proficient in database management with SQL Server and MongoDB, authentication with JWT, and server management. I aim to advance my career in backend development with my ability to quickly adapt to new technologies.",
   },
   tr: {
-    greeting: "Merhaba, Ben Muhammet Mustafa",
+    greeting: "Selam, Ben Muhammet Mustafa",
     role: "Backend Geliştirici",
     available: "Çalışmaya müsait",
     contactMe: "İletişime Geç",
