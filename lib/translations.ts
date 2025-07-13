@@ -21,6 +21,27 @@ export const translations = {
     techStack: "Tech Stack",
     introText:
       "Backend developer specializing in Node.js, .NET Core, and database management. Building robust and scalable server-side applications.",
+    privacy: {
+      title: "Privacy Policy",
+      lastUpdated: "Last Updated: December 2024",
+      introduction: "This Privacy Policy describes how your personal information is collected, used, and shared when you visit my portfolio website.",
+      dataCollection: "Data Collection",
+      dataCollectionDesc: "I collect information you provide directly to me when you contact me through the contact form or email. This may include your name, email address, and any message you send.",
+      dataUsage: "Data Usage",
+      dataUsageDesc: "I use the information I collect to respond to your inquiries, provide requested services, and communicate with you about potential opportunities.",
+      dataProtection: "Data Protection",
+      dataProtectionDesc: "I implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
+      dataSharing: "Data Sharing",
+      dataSharingDesc: "I do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.",
+      cookies: "Cookies",
+      cookiesDesc: "This website may use cookies to enhance your experience. You can choose to disable cookies through your browser settings.",
+      contact: "Contact Information",
+      contactDesc: "If you have any questions about this Privacy Policy, please contact me at mmdincer@outlook.com.",
+      changes: "Changes to This Policy",
+      changesDesc: "I may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.",
+      rights: "Your Rights",
+      rightsDesc: "You have the right to access, update, or delete your personal information. You may also opt out of future communications at any time."
+    },
     services: {
       backend: {
         title: "Backend Development",
@@ -68,6 +89,27 @@ export const translations = {
     techStack: "Teknoloji Yığını",
     introText:
       "Node.js, .NET Core ve veritabanı yönetimi konusunda uzmanlaşmış backend geliştirici. Sağlam ve ölçeklenebilir sunucu taraflı uygulamalar geliştiriyorum.",
+    privacy: {
+      title: "Gizlilik Politikası",
+      lastUpdated: "Son Güncelleme: Aralık 2024",
+      introduction: "Bu Gizlilik Politikası, portföy web sitemi ziyaret ettiğinizde kişisel bilgilerinizin nasıl toplandığını, kullanıldığını ve paylaşıldığını açıklar.",
+      dataCollection: "Veri Toplama",
+      dataCollectionDesc: "İletişim formu veya e-posta yoluyla benimle iletişime geçtiğinizde doğrudan sağladığınız bilgileri topluyorum. Bu, adınız, e-posta adresiniz ve gönderdiğiniz mesajları içerebilir.",
+      dataUsage: "Veri Kullanımı",
+      dataUsageDesc: "Topladığım bilgileri sorularınıza yanıt vermek, talep edilen hizmetleri sağlamak ve potansiyel fırsatlar hakkında sizinle iletişim kurmak için kullanıyorum.",
+      dataProtection: "Veri Koruma",
+      dataProtectionDesc: "Kişisel bilgilerinizi yetkisiz erişim, değişiklik, ifşa veya imhaya karşı korumak için uygun güvenlik önlemleri uyguluyorum.",
+      dataSharing: "Veri Paylaşımı",
+      dataSharingDesc: "Bu politikada açıklananlar dışında, kişisel bilgilerinizi izniniz olmadan üçüncü taraflarla satmıyor, takas etmiyor veya başka şekilde aktarmıyorum.",
+      cookies: "Çerezler",
+      cookiesDesc: "Bu web sitesi, deneyiminizi geliştirmek için çerezler kullanabilir. Tarayıcı ayarlarınız aracılığıyla çerezleri devre dışı bırakmayı seçebilirsiniz.",
+      contact: "İletişim Bilgileri",
+      contactDesc: "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen mmdincer@outlook.com adresinden benimle iletişime geçin.",
+      changes: "Bu Politikadaki Değişiklikler",
+      changesDesc: "Bu Gizlilik Politikasını zaman zaman güncelleyebilirim. Herhangi bir değişiklik, güncellenmiş bir revizyon tarihi ile bu sayfada yayınlanacaktır.",
+      rights: "Haklarınız",
+      rightsDesc: "Kişisel bilgilerinize erişme, güncelleme veya silme hakkınız vardır. Ayrıca gelecekteki iletişimlerden istediğiniz zaman çıkabilirsiniz."
+    },
     services: {
       backend: {
         title: "Backend Geliştirme",
