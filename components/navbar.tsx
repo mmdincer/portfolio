@@ -73,11 +73,7 @@ export function Navbar() {
                 <Button
                   variant={isActive ? "default" : "ghost"}
                   size="sm"
-                  className={`rounded-full text-sm transition-all duration-200 ${
-                    isActive
-                      ? "bg-green-500 hover:bg-green-600 text-white"
-                      : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
-                  }`}
+                  className="rounded-full"
                 >
                   {item.label}
                 </Button>
@@ -98,11 +94,12 @@ export function Navbar() {
           </Button>
           <Button
             variant="outline"
-            size="sm"
+            size="icon"
             onClick={() => setLanguage(language === "tr" ? "en" : "tr")}
-            className="rounded-full text-sm px-3"
+            className="rounded-full"
+            aria-label={language === "tr" ? "Switch to English" : "Switch to Turkish"}
           >
-            {language === "tr" ? "EN" : "TR"}
+            <span className="text-sm font-bold">{language === "tr" ? "EN" : "TR"}</span>
           </Button>
           <Button
             variant="ghost"
@@ -125,11 +122,7 @@ export function Navbar() {
               <Link key={item.key} href={item.href} className="w-full">
                 <Button
                   variant={isActive ? "default" : "ghost"}
-                  className={`w-full justify-start rounded-lg text-sm ${
-                    isActive
-                      ? "bg-green-500 hover:bg-green-600 text-white"
-                      : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
-                  }`}
+                  className="w-full justify-start"
                 >
                   {item.label}
                 </Button>

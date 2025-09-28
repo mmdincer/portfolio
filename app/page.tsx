@@ -152,7 +152,6 @@ export default function Home() {
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-2xl">
                     <Button
                       variant="outline"
-                      className="rounded-lg border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 h-10 text-base px-8"
                       onClick={copyEmail}
                     >
                       {copied ? <Check size={18} className="mr-2" /> : <Copy size={18} className="mr-2" />}
@@ -163,7 +162,6 @@ export default function Home() {
                       <DialogTrigger asChild>
                         <Button
                           variant="outline"
-                          className="rounded-lg border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 h-10 text-base px-8"
                         >
                           <FileText size={18} className="mr-2" />
                           {t.showCV}
@@ -182,7 +180,7 @@ export default function Home() {
                     <a href="https://github.com/mmdincer" target="_blank" rel="noopener noreferrer" className="block">
                       <Button
                         variant="outline"
-                        className="rounded-lg border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 w-full h-10 text-base px-8"
+                        className="w-full"
                       >
                         <GithubIcon size={18} className="mr-2" />
                         GitHub
@@ -196,7 +194,7 @@ export default function Home() {
                     >
                       <Button
                         variant="outline"
-                        className="rounded-lg border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 w-full h-10 text-base px-8"
+                        className="w-full"
                       >
                         <LinkedinIcon size={18} className="mr-2" />
                         LinkedIn
@@ -239,7 +237,7 @@ export default function Home() {
             <Link href="/projects">
               <Button
                 variant="outline"
-                className="rounded-full border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="rounded-full"
               >
                 {t.viewAll}
               </Button>
@@ -269,7 +267,7 @@ export default function Home() {
                   variant="outline"
                   size="icon"
                   onClick={prevProjectPage}
-                  className="rounded-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  className="rounded-full"
                 >
                   <ChevronLeft size={18} />
                 </Button>
@@ -287,7 +285,7 @@ export default function Home() {
                   variant="outline"
                   size="icon"
                   onClick={nextProjectPage}
-                  className="rounded-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  className="rounded-full"
                 >
                   <ChevronRight size={18} />
                 </Button>
@@ -303,7 +301,7 @@ export default function Home() {
               <Link href="/blog">
                 <Button
                   variant="outline"
-                  className="rounded-full border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  className="rounded-full"
                 >
                   {t.viewAll}
                 </Button>
@@ -335,7 +333,7 @@ export default function Home() {
                     variant="outline"
                     size="icon"
                     onClick={prevBlogPage}
-                    className="rounded-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="rounded-full"
                   >
                     <ChevronLeft size={18} />
                   </Button>
@@ -353,7 +351,7 @@ export default function Home() {
                     variant="outline"
                     size="icon"
                     onClick={nextBlogPage}
-                    className="rounded-full bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="rounded-full"
                   >
                     <ChevronRight size={18} />
                   </Button>
