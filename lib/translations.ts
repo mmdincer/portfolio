@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    greeting: "Hey, I'm Muhammet Mustafa",
+    greeting: "Muhammet Mustafa Dincer",
     role: "Backend Developer",
     available: "Available for work",
     contactMe: "Contact Me",
@@ -11,6 +11,7 @@ export const translations = {
     currentlyHigh: "Currently High on Coding",
     beforeYouScroll: "Before you scroll,",
     whatDoYouWant: "what do you want?",
+    home: "Home",
     projects: "Projects",
     about: "About Me",
     education: "Education",
@@ -20,7 +21,7 @@ export const translations = {
     softwareEngineering: "Software Engineering",
     techStack: "Tech Stack",
     introText:
-      "Backend developer specializing in Node.js, .NET Core, and database management. Building robust and scalable server-side applications.",
+      "I see software engineering not only as a profession, but as a tool for creating solutions to real-world problems. In this journey that began with my curiosity, I've experimented with different technologies and learned the importance of teamwork, problem-solving, and patience alongside technical skills. Growing through learning motivates me; in the future, I aim to be not just someone who writes code, but an engineer who develops sustainable and human-centered projects.",
     privacy: {
       title: "Privacy Policy",
       lastUpdated: "Last Updated: December 2024",
@@ -62,13 +63,58 @@ export const translations = {
         "Developed a flexible and scalable API infrastructure using Node.js and Express. Implemented secure user management with JWT and optimized data processing with MongoDB.",
       finshark:
         "Created a social media-focused API application for stock market data tracking using .NET Core. Integrated SQL Server for fast and accurate stock data processing.",
+      aiFit:
+        "Built an AI-powered virtual dressing room with Expo and React Native, letting users preview outfits on their own photos with visuals generated via the Google Gemini API.",
+      expenseTracker:
+        "Developed a mobile app that helps individuals and groups track expenses, incomes, and shared debts using Expo, React Native, and TypeScript.",
+      portfolio:
+        "Modern portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features bilingual support, dark mode, and responsive design with comprehensive UI components.",
+      ecommerce:
+        "Full-featured e-commerce API with payment integration, inventory management, and user authentication. Built with Node.js, Express, and MongoDB.",
+      taskManagement:
+        "Real-time task management system with team collaboration features. Includes notifications, file sharing, and progress tracking using .NET Core and SignalR.",
+      socialAnalytics:
+        "Social media analytics platform providing insights and engagement metrics. Built with Python, Django, and advanced data visualization tools.",
       placeholder: "This is a placeholder for a future project. Details will be added soon.",
     },
+    blog: "Blog",
+    allProjects: "All Projects",
+    viewAll: "View All",
+    readMore: "Read More",
+    projectsDescription: "Explore my collection of backend development projects, showcasing expertise in various technologies and architectural patterns.",
+    blogDescription: "Insights and experiences from my journey in backend development, covering best practices, tutorials, and industry trends.",
+    latestPosts: "Latest Posts",
+    blogPosts: {
+      nodejsBestPractices: {
+        title: "Node.js Best Practices for Backend Development",
+        description: "Essential best practices for building robust and scalable Node.js applications, covering security, performance, and code organization.",
+      },
+      apiSecurity: {
+        title: "Complete API Security Guide with JWT",
+        description: "Comprehensive guide to securing your APIs with JWT authentication, input validation, and security headers implementation.",
+      },
+      databaseOptimization: {
+        title: "MongoDB Performance Optimization Techniques",
+        description: "Advanced techniques for optimizing MongoDB performance, including indexing strategies, query optimization, and aggregation pipelines.",
+      },
+      microservices: {
+        title: "Building Microservices Architecture with Docker",
+        description: "Step-by-step guide to designing and implementing microservices architecture using Docker containers and modern deployment strategies.",
+      },
+      cicd: {
+        title: "Setting Up CI/CD Pipeline for Node.js Projects",
+        description: "Complete tutorial on setting up continuous integration and deployment pipelines for Node.js applications using modern DevOps tools.",
+      },
+      typescript: {
+        title: "TypeScript in Backend Development",
+        description: "Benefits and best practices of using TypeScript in backend development, with practical examples and configuration tips.",
+      },
+    },
     aboutDescription:
-      "I have a strong foundation in backend development and experience with various AI projects in Python. My algorithm knowledge has been strengthened through exercises on platforms like LeetCode. I have experience in API development and RESTful architecture with technologies like Node.js and .Net Core. I am proficient in database management with SQL Server and MongoDB, authentication with JWT, and server management. I aim to advance my career in backend development with my ability to quickly adapt to new technologies.",
+      "I'm a passionate backend developer with a strong foundation in building scalable server-side applications. I specialize in creating robust APIs and efficient database solutions using technologies like Node.js, .NET Core, MongoDB, and SQL Server. My experience extends to AI projects in Python, where I've developed intelligent applications. I continuously sharpen my problem-solving skills through algorithmic challenges on platforms like LeetCode. With a focus on clean code, security best practices, and performance optimization, I transform complex business requirements into reliable software solutions.",
   },
   tr: {
-    greeting: "Selam, Ben Muhammet Mustafa",
+    greeting: "Muhammet Mustafa Dincer",
     role: "Backend Geliştirici",
     available: "Çalışmaya müsait",
     contactMe: "İletişime Geç",
@@ -79,6 +125,7 @@ export const translations = {
     currentlyHigh: "Şu anda Kodlama Modunda",
     beforeYouScroll: "Kaydırmadan önce,",
     whatDoYouWant: "ne istiyorsun?",
+    home: "Ana Sayfa",
     projects: "Projeler",
     about: "Hakkımda",
     education: "Eğitim",
@@ -88,7 +135,7 @@ export const translations = {
     softwareEngineering: "Yazılım Mühendisliği",
     techStack: "Teknoloji Yığını",
     introText:
-      "Node.js, .NET Core ve veritabanı yönetimi konusunda uzmanlaşmış backend geliştirici. Sağlam ve ölçeklenebilir sunucu taraflı uygulamalar geliştiriyorum.",
+      "Yazılım mühendisliğini yalnızca bir meslek değil, gerçek hayattaki sorunlara çözüm üretme aracı olarak görüyorum. Merakımla başladığım bu yolculukta farklı teknolojiler denedim, teknik becerilerin yanı sıra takım çalışması, problem çözme ve sabrın önemini öğrendim. Öğrendikçe gelişmek beni motive ediyor; gelecekte sadece kod yazan değil, sürdürülebilir ve insana dokunan projeler geliştiren bir mühendis olmayı hedefliyorum.",
     privacy: {
       title: "Gizlilik Politikası",
       lastUpdated: "Son Güncelleme: Aralık 2024",
@@ -130,9 +177,54 @@ export const translations = {
         "Node.js ve Express kullanarak esnek ve ölçeklenebilir bir API altyapısı geliştirdim. JWT ile güvenli kullanıcı yönetimi sağladım ve MongoDB ile veri işleme süreçlerini optimize ettim.",
       finshark:
         ".Net Core kullanarak, kullanıcıların borsa verilerini takip edebileceği sosyal medya odaklı bir API uygulaması geliştirdim. SQL Server veritabanı entegrasyonu ile hisse senedi verilerini hızlı ve doğru şekilde işledim.",
+      aiFit:
+        "Expo ve React Native ile TypeScript kullanarak geliştirdiğim yapay zeka destekli sanal giyinme odası. Kullanıcılar kendi görselleri üzerinde kıyafetleri deneyerek Google Gemini API ile oluşturduğum görsellerle nasıl göründüklerini anında önizleyebiliyor.",
+      expenseTracker:
+        "Expo, React Native ve TypeScript kullanarak geliştirdiğim bu mobil uygulama ile kişiler veya gruplar gelirlerini, giderlerini ve borç paylaşımını kolayca takip edebiliyor.",
+      portfolio:
+        "Next.js, TypeScript ve Tailwind CSS ile oluşturulmuş modern portföy web sitesi. İki dilli destek, karanlık mod ve kapsamlı UI bileşenleriyle duyarlı tasarım özellikleri.",
+      ecommerce:
+        "Ödeme entegrasyonu, envanter yönetimi ve kullanıcı kimlik doğrulaması içeren tam özellikli e-ticaret API'si. Node.js, Express ve MongoDB ile geliştirildi.",
+      taskManagement:
+        "Takım işbirliği özellikleri içeren gerçek zamanlı görev yönetim sistemi. .NET Core ve SignalR kullanarak bildirimler, dosya paylaşımı ve ilerleme takibi.",
+      socialAnalytics:
+        "İçgörüler ve etkileşim metrikleri sağlayan sosyal medya analitik platformu. Python, Django ve gelişmiş veri görselleştirme araçları ile geliştirildi.",
       placeholder: "Bu gelecekteki bir proje için yer tutucudur. Detaylar yakında eklenecektir.",
     },
+    blog: "Blog",
+    allProjects: "Tüm Projeler",
+    viewAll: "Tümünü Gör",
+    readMore: "Devamını Oku",
+    projectsDescription: "Çeşitli teknolojiler ve mimari desenlerindeki uzmanlığımı sergileyen backend geliştirme projelerimi keşfedin.",
+    blogDescription: "Backend geliştirme yolculuğumdaki deneyimler ve görüşler, en iyi uygulamalar, öğreticiler ve sektör trendlerini kapsıyor.",
+    latestPosts: "Son Yazılar",
+    blogPosts: {
+      nodejsBestPractices: {
+        title: "Backend Geliştirme için Node.js En İyi Uygulamaları",
+        description: "Güvenlik, performans ve kod organizasyonunu kapsayan, sağlam ve ölçeklenebilir Node.js uygulamaları oluşturmak için temel en iyi uygulamalar.",
+      },
+      apiSecurity: {
+        title: "JWT ile Kapsamlı API Güvenlik Rehberi",
+        description: "JWT kimlik doğrulama, giriş doğrulama ve güvenlik başlıkları uygulaması ile API'lerinizi güvence altına almaya yönelik kapsamlı rehber.",
+      },
+      databaseOptimization: {
+        title: "MongoDB Performans Optimizasyon Teknikleri",
+        description: "İndeksleme stratejileri, sorgu optimizasyonu ve aggregation pipeline'ları dahil MongoDB performansını optimize etmek için gelişmiş teknikler.",
+      },
+      microservices: {
+        title: "Docker ile Microservices Mimarisi Oluşturma",
+        description: "Docker konteynerları ve modern dağıtım stratejileri kullanarak microservices mimarisini tasarlama ve uygulama konusunda adım adım rehber.",
+      },
+      cicd: {
+        title: "Node.js Projeleri için CI/CD Pipeline Kurulumu",
+        description: "Modern DevOps araçları kullanarak Node.js uygulamaları için sürekli entegrasyon ve dağıtım pipeline'ları kurma konusunda kapsamlı öğretici.",
+      },
+      typescript: {
+        title: "Backend Geliştirmede TypeScript",
+        description: "Backend geliştirmede TypeScript kullanmanın faydaları ve en iyi uygulamaları, pratik örnekler ve konfigürasyon ipuçları ile.",
+      },
+    },
     aboutDescription:
-      "Backend geliştirme konusunda güçlü bir altyapıya sahibim ve Python dilinde çeşitli yapay zeka projelerinde deneyim kazandım. Algoritma bilgim, LeetCode gibi platformlarda yaptığım egzersizlerle kuvvetlendi. Node.js ve .Net Core gibi teknolojilerle API geliştirme ve RESTful mimari konularında deneyimliyim. SQL Server ve MongoDB ile veritabanı yönetimi, JWT ile kimlik doğrulama ve sunucu yönetimi gibi alanlarda yetkinim. Yeni teknolojilere hızlı adapte olabilme yeteneğimle backend geliştirme alanında kariyerimi ilerletmeyi hedefliyorum.",
+      "Ölçeklenebilir sunucu taraflı uygulamalar geliştirme konusunda güçlü bir temele sahip tutkulu bir backend geliştiricisiyim. Node.js, .NET Core, MongoDB ve SQL Server gibi teknolojiler kullanarak sağlam API'ler ve verimli veritabanı çözümleri oluşturma konusunda uzmanım. Deneyimim Python ile yapay zeka projelerine kadar uzanır ve bu alanda akıllı uygulamalar geliştirdim. LeetCode gibi platformlarda algoritma zorlukları çözerek problem çözme becerilerimi sürekli geliştiriyorum. Temiz kod, güvenlik en iyi uygulamaları ve performans optimizasyonuna odaklanarak karmaşık iş gereksinimlerini güvenilir yazılım çözümlerine dönüştürüyorum.",
   },
 }

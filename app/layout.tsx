@@ -10,7 +10,14 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "MMD | Portfolio",
   description: "Backend Developer & Software Engineer",
-    generator: 'v0.dev'
+  generator: "v0.dev",
+  icons: {
+    icon: [
+      { url: "/logo-siyah.png", type: "image/png", media: "(prefers-color-scheme: light)" },
+      { url: "/logo-beyaz.png", type: "image/png", media: "(prefers-color-scheme: dark)" },
+    ],
+    shortcut: "/logo-siyah.png",
+  },
 }
 
 export default function RootLayout({
