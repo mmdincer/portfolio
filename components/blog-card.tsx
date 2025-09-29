@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowRight } from "lucide-react"
+import { Calendar, Clock, ExternalLink } from "lucide-react"
 import Link from "next/link"
 
 interface BlogCardProps {
@@ -13,17 +13,24 @@ interface BlogCardProps {
   readTime: string
   tags: string[]
   slug: string
+  externalUrl?: string
 }
 
-export function BlogCard({ title, description, date, readTime, tags, slug }: BlogCardProps) {
+export function BlogCard({ title, description, date, readTime, tags, slug, externalUrl }: BlogCardProps) {
   return (
-    <div className="overflow-hidden bg-white dark:bg-gray-800 hover:shadow-lg transition-shadow duration-300 rounded-xl border border-gray-200 dark:border-gray-700 h-[280px] flex flex-col">
+    <div className="overflow-hidden bg-white dark:bg-gray-800 hover:shadow-lg transition-shadow duration-300 rounded-xl border border-gray-200 dark:border-gray-700 h-[220px] flex flex-col">
       <div className="p-6 flex flex-col h-full">
         <div className="flex items-start justify-between gap-3 mb-4 flex-shrink-0">
           <h3 className="text-xl font-bold text-gray-800 dark:text-white sm:text-2xl line-clamp-2 flex-1">{title}</h3>
-          <Link href={`/blog/${slug}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 flex-shrink-0">
-            <ArrowRight size={18} />
-          </Link>
+          {externalUrl ? (
+            <a href={externalUrl} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 flex-shrink-0">
+              <ExternalLink size={18} />
+            </a>
+          ) : (
+            <Link href={`/blog/${slug}`} className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 flex-shrink-0">
+              <ExternalLink size={18} />
+            </Link>
+          )}
         </div>
 
         <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-4">
@@ -37,7 +44,7 @@ export function BlogCard({ title, description, date, readTime, tags, slug }: Blo
           </div>
         </div>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base line-clamp-3 flex-1">{description}</p>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base line-clamp-3 flex-1 whitespace-pre-line">{description}</p>
 
         <div className="flex flex-wrap gap-2 mt-auto">
           {tags.slice(0, 4).map((tag, index) => (

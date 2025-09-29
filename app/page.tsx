@@ -324,6 +324,7 @@ export default function Home() {
                       readTime={post.readTime}
                       tags={post.tags}
                       slug={post.slug}
+                      externalUrl={post.externalUrl}
                     />
                   ))}
                 </div>

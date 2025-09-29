@@ -59,6 +59,7 @@ export default function BlogPage() {
                   readTime={post.readTime}
                   tags={post.tags}
                   slug={post.slug}
+                  externalUrl={post.externalUrl}
                 />
               ))}
             </div>
