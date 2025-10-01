@@ -6,7 +6,7 @@ import { getBlogPost, getAllBlogPosts } from "@/lib/blog-data"
 import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Calendar, Clock, User, ArrowLeft, ArrowRight } from "lucide-react"
+import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react"
 import { translations } from "@/lib/translations"
 import { useState, useEffect } from "react"
 import Link from "next/link"
@@ -88,10 +88,6 @@ export default function BlogPostPage() {
               <div className="flex items-center gap-2">
                 <Calendar size={16} />
                 <span>{post.date}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Clock size={16} />
-                <span>{post.readTime}</span>
               </div>
             </div>
           </header>

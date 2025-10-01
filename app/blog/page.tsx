@@ -56,7 +56,6 @@ export default function BlogPage() {
                   title={post.title[language]}
                   description={post.description[language]}
                   date={post.date}
-                  readTime={post.readTime}
                   tags={post.tags}
                   slug={post.slug}
                   externalUrl={post.externalUrl}

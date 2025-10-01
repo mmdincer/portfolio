@@ -3,20 +3,19 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ExternalLink } from "lucide-react"
+import { Calendar, ExternalLink } from "lucide-react"
 import Link from "next/link"
 
 interface BlogCardProps {
   title: string
   description: string
   date: string
-  readTime: string
   tags: string[]
   slug: string
   externalUrl?: string
 }
 
-export function BlogCard({ title, description, date, readTime, tags, slug, externalUrl }: BlogCardProps) {
+export function BlogCard({ title, description, date, tags, slug, externalUrl }: BlogCardProps) {
   return (
     <div className="overflow-hidden bg-white dark:bg-gray-800 hover:shadow-lg transition-shadow duration-300 rounded-xl border border-gray-200 dark:border-gray-700 h-[220px] flex flex-col">
       <div className="p-6 flex flex-col h-full">
@@ -37,10 +36,6 @@ export function BlogCard({ title, description, date, readTime, tags, slug, exter
           <div className="flex items-center gap-1">
             <Calendar size={14} />
             <span>{date}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <Clock size={14} />
-            <span>{readTime}</span>
           </div>
         </div>
 

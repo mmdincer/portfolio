@@ -10,7 +10,6 @@ export interface BlogPost {
   }
   date: string
   publishedAt?: string
-  readTime: string
   tags: string[]
   content: {
     en: string
@@ -31,9 +30,8 @@ export const blogPosts: BlogPost[] = [
       en: "soru: 2627. Debounce\nzorluk: medium",
       tr: "soru: 2627. Debounce\nzorluk: medium"
     },
-    date: "2025-01-29",
-    publishedAt: "2025-01-29T10:00:00Z",
-    readTime: "5 dk",
+    date: "2025-09-29",
+    publishedAt: "2025-09-29T10:00:00Z",
     tags: ["LeetCode", "JavaScript", "Debounce", "Medium"],
     content: {
       en: "soru: 2627. Debounce zorluk: medium",
@@ -41,6 +39,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-1-2627-b48fa880b6ce"
+  },
+  {
+    slug: "leetcode-challenge-2-1518",
+    title: {
+      en: "leetcode challenge-2",
+      tr: "leetcode challenge-2"
+    },
+    description: {
+      en: "soru: 1518. Water Bottles\nzorluk: easy",
+      tr: "soru: 1518. Water Bottles\nzorluk: easy"
+    },
+    date: "2025-10-01",
+    publishedAt: "2025-10-01T10:00:00Z",
+    tags: ["LeetCode", "Math", "Simulation", "Easy"],
+    content: {
+      en: "soru: 1518. Water Bottles zorluk: easy",
+      tr: "soru: 1518. Water Bottles zorluk: easy"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-2-6f29789544ab"
   }
 ]
 
