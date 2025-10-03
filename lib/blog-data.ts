@@ -59,6 +59,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-2-6f29789544ab"
+  },
+  {
+    slug: "leetcode-challenge-3-3248",
+    title: {
+      en: "leetcode challenge-3",
+      tr: "leetcode challenge-3"
+    },
+    description: {
+      en: "soru: 3248. Snake in Matrix\nzorluk: easy",
+      tr: "soru: 3248. Snake in Matrix\nzorluk: easy"
+    },
+    date: "2025-10-03",
+    publishedAt: "2025-10-03T10:00:00Z",
+    tags: ["LeetCode", "Array", "Simulation", "String", "Easy"],
+    content: {
+      en: "soru: 3248. Snake in Matrix zorluk: easy",
+      tr: "soru: 3248. Snake in Matrix zorluk: easy"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-3-e1964efb00c6"
   }
 ]
 
