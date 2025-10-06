@@ -79,6 +79,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-3-e1964efb00c6"
+  },
+  {
+    slug: "leetcode-challenge-4-2807",
+    title: {
+      en: "leetcode challenge-4",
+      tr: "leetcode challenge-4"
+    },
+    description: {
+      en: "soru: 2807. Insert Greatest Common Divisors in Linked List\nzorluk: medium",
+      tr: "soru: 2807. Insert Greatest Common Divisors in Linked List\nzorluk: medium"
+    },
+    date: "2025-10-06",
+    publishedAt: "2025-10-06T10:00:00Z",
+    tags: ["LeetCode", "Linked List", "Math", "Number Theory", "Medium"],
+    content: {
+      en: "soru: 2807. Insert Greatest Common Divisors in Linked List zorluk: medium",
+      tr: "soru: 2807. Insert Greatest Common Divisors in Linked List zorluk: medium"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-4-cc4de64345ce"
   }
 ]
 
