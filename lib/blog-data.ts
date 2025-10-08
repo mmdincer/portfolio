@@ -99,6 +99,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-4-cc4de64345ce"
+  },
+  {
+    slug: "leetcode-challenge-5-2300",
+    title: {
+      en: "leetcode challenge-5",
+      tr: "leetcode challenge-5"
+    },
+    description: {
+      en: "soru: 2300. Successful Pairs of Spells and Potions\nzorluk: medium",
+      tr: "soru: 2300. Successful Pairs of Spells and Potions\nzorluk: medium"
+    },
+    date: "2025-10-08",
+    publishedAt: "2025-10-08T10:00:00Z",
+    tags: ["LeetCode", "Array", "Binary Search", "Sorting", "Medium"],
+    content: {
+      en: "soru: 2300. Successful Pairs of Spells and Potions zorluk: medium",
+      tr: "soru: 2300. Successful Pairs of Spells and Potions zorluk: medium"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-5-95c7384f9888"
   }
 ]
 
