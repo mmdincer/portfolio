@@ -119,6 +119,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-5-95c7384f9888"
+  },
+  {
+    slug: "leetcode-challenge-6-3147",
+    title: {
+      en: "leetcode challenge-6",
+      tr: "leetcode challenge-6"
+    },
+    description: {
+      en: "soru: 3147. Taking Maximum Energy From the Mystic Dungeon\nzorluk: medium",
+      tr: "soru: 3147. Taking Maximum Energy From the Mystic Dungeon\nzorluk: medium"
+    },
+    date: "2025-10-10",
+    publishedAt: "2025-10-10T10:00:00Z",
+    tags: ["LeetCode", "Array", "Dynamic Programming", "Medium"],
+    content: {
+      en: "soru: 3147. Taking Maximum Energy From the Mystic Dungeon zorluk: medium",
+      tr: "soru: 3147. Taking Maximum Energy From the Mystic Dungeon zorluk: medium"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-6-548d41717699"
   }
 ]
 
