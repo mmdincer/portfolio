@@ -139,6 +139,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-6-548d41717699"
+  },
+  {
+    slug: "leetcode-challenge-7-1769",
+    title: {
+      en: "leetcode challenge-7",
+      tr: "leetcode challenge-7"
+    },
+    description: {
+      en: "soru: 1769. Minimum Number of Operations to Move All Balls to Each Box\nzorluk: medium",
+      tr: "soru: 1769. Minimum Number of Operations to Move All Balls to Each Box\nzorluk: medium"
+    },
+    date: "2025-10-13",
+    publishedAt: "2025-10-13T10:00:00Z",
+    tags: ["LeetCode", "Array", "String", "Prefix Sum", "Medium"],
+    content: {
+      en: "soru: 1769. Minimum Number of Operations to Move All Balls to Each Box zorluk: medium",
+      tr: "soru: 1769. Minimum Number of Operations to Move All Balls to Each Box zorluk: medium"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-7-dce35c0cdc8e"
   }
 ]
 
