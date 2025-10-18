@@ -159,6 +159,26 @@ export const blogPosts: BlogPost[] = [
     },
     author: "Muhammet Mustafa Dincer",
     externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-7-dce35c0cdc8e"
+  },
+  {
+    slug: "leetcode-challenge-8-2161",
+    title: {
+      en: "leetcode challenge-8",
+      tr: "leetcode challenge-8"
+    },
+    description: {
+      en: "soru: 2161. Partition Array According to Given Pivot\nzorluk: medium",
+      tr: "soru: 2161. Partition Array According to Given Pivot\nzorluk: medium"
+    },
+    date: "2025-10-15",
+    publishedAt: "2025-10-15T10:00:00Z",
+    tags: ["LeetCode", "Array", "Two Pointers", "Medium"],
+    content: {
+      en: "soru: 2161. Partition Array According to Given Pivot zorluk: medium",
+      tr: "soru: 2161. Partition Array According to Given Pivot zorluk: medium"
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/leetcode-challenge-8-264b5d98e698"
   }
 ]
 
