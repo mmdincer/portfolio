@@ -21,6 +21,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "load-balancing",
+    title: {
+      en: "Load Balancing",
+      tr: "Load Balancing"
+    },
+    description: {
+      en: "Exploring load balancing techniques and their importance in distributed systems and web applications.",
+      tr: "Dağıtık sistemlerde ve web uygulamalarında yük dengeleme teknikleri ve önemini inceleyen yazım."
+    },
+    date: "2025-01-20",
+    publishedAt: "2025-01-20T10:00:00Z",
+    tags: ["DevOps", "System Design", "Infrastructure"],
+    content: {
+      en: "Exploring load balancing techniques and their importance in distributed systems and web applications.",
+      tr: "Dağıtık sistemlerde ve web uygulamalarında yük dengeleme teknikleri ve önemini inceleyen yazım."
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/load-balancing-a255d9d9614e"
+  },
+  {
     slug: "leetcode-challenge-1-2627",
     title: {
       en: "leetcode challenge-1",
