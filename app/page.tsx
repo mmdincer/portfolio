@@ -19,6 +19,7 @@ import { ProjectCard } from "@/components/project-card"
 import { BlogCard } from "@/components/blog-card"
 import { Navbar } from "@/components/navbar"
 import { getAllBlogPosts } from "@/lib/blog-data"
+import { getAllProjects } from "@/lib/project-data"
 import { useState, useEffect } from "react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { TechStack } from "@/components/tech-stack"
@@ -42,43 +43,12 @@ export default function Home() {
     setMounted(true)
   }, [])
 
-  const latestProjects = [
-    {
-      title: "AI-Fit",
-      description: t.projectDescriptions.aiFit,
-      technologies: ["Expo", "React Native", "TypeScript", "Google Gemini API"],
-      link: "https://github.com/mmdincer/AI-Fit",
-    },
-    {
-      title: "Expense Tracker",
-      description: t.projectDescriptions.expenseTracker,
-      technologies: ["Expo", "React Native", "TypeScript"],
-      link: "https://github.com/mmdincer/expenseTracker",
-    },
-  ]
-
-  const establishedProjects = [
-    {
-      title: "Project Base",
-      description: t.projectDescriptions.projectBase,
-      technologies: ["JavaScript", "Node.js", "Express", "MongoDB", "JWT"],
-      link: "https://github.com/mmdincer/project-base",
-    },
-    {
-      title: "FinShark",
-      description: t.projectDescriptions.finshark,
-      technologies: [".Net Core", "SQL Server", "JWT"],
-      link: "https://github.com/mmdincer/FinShark",
-    },
-  ]
-
-  const projects = [...latestProjects, ...establishedProjects]
-
+  const allProjects = getAllProjects()
   const allBlogPosts = getAllBlogPosts()
 
   const projectsPerPage = 2
   const blogsPerPage = 2
-  const totalProjectPages = Math.ceil(projects.length / projectsPerPage)
+  const totalProjectPages = Math.ceil(allProjects.length / projectsPerPage)
   const totalBlogPages = Math.ceil(allBlogPosts.length / blogsPerPage)
 
   const nextProjectPage = () => {
@@ -97,7 +67,7 @@ export default function Home() {
     setCurrentBlogPage((prev) => (prev - 1 + totalBlogPages) % totalBlogPages)
   }
 
-  const currentProjects = projects.slice(
+  const currentProjects = allProjects.slice(
     currentProjectPage * projectsPerPage,
     (currentProjectPage + 1) * projectsPerPage,
   )
@@ -249,18 +219,18 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-[200px] h-[200px] bg-green-500/5 dark:bg-green-500/10 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-[150px] h-[150px] bg-blue-500/5 dark:bg-blue-500/10 rounded-full blur-3xl"></div>
 
-            <div className="relative z-10">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {currentProjects.map((project, index) => (
-                  <ProjectCard
-                    key={index}
-                    title={project.title}
-                    description={project.description}
-                    technologies={project.technologies}
-                    link={project.link}
-                  />
-                ))}
-              </div>
+              <div className="relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {currentProjects.map((project, index) => (
+                    <ProjectCard
+                      key={index}
+                      title={project.title}
+                      description={project.description[language]}
+                      technologies={project.technologies}
+                      link={project.link}
+                    />
+                  ))}
+                </div>
 
               <div className="flex justify-center mt-6 gap-4">
                 <Button

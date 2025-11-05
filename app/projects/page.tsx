@@ -9,6 +9,7 @@ import {
   ArrowLeft,
 } from "lucide-react"
 import { translations } from "@/lib/translations"
+import { getAllProjects } from "@/lib/project-data"
 import { ProjectCard } from "@/components/project-card"
 import { Navbar } from "@/components/navbar"
 import { useState, useEffect } from "react"
@@ -25,37 +26,7 @@ export default function ProjectsPage() {
     setMounted(true)
   }, [])
 
-  const latestProjects = [
-    {
-      title: "AI-Fit",
-      description: t.projectDescriptions.aiFit,
-      technologies: ["Expo", "React Native", "TypeScript", "Google Gemini API"],
-      link: "https://github.com/mmdincer/AI-Fit",
-    },
-    {
-      title: "Expense Tracker",
-      description: t.projectDescriptions.expenseTracker,
-      technologies: ["Expo", "React Native", "TypeScript"],
-      link: "https://github.com/mmdincer/expenseTracker",
-    },
-  ]
-
-  const establishedProjects = [
-    {
-      title: "Project Base",
-      description: t.projectDescriptions.projectBase,
-      technologies: ["JavaScript", "Node.js", "Express", "MongoDB", "JWT"],
-      link: "https://github.com/mmdincer/project-base",
-    },
-    {
-      title: "FinShark",
-      description: t.projectDescriptions.finshark,
-      technologies: [".Net Core", "SQL Server", "JWT"],
-      link: "https://github.com/mmdincer/FinShark",
-    },
-  ]
-
-  const allProjects = [...latestProjects, ...establishedProjects]
+  const allProjects = getAllProjects()
 
   // Handle theme toggle
   const toggleTheme = () => {
@@ -90,7 +61,7 @@ export default function ProjectsPage() {
               <ProjectCard
                 key={index}
                 title={project.title}
-                description={project.description}
+                description={project.description[language]}
                 technologies={project.technologies}
                 link={project.link}
               />

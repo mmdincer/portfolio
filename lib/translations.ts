@@ -63,6 +63,8 @@ export const translations = {
         "Developed a flexible and scalable API infrastructure using Node.js and Express. Implemented secure user management with JWT and optimized data processing with MongoDB.",
       finshark:
         "Created a social media-focused API application for stock market data tracking using .NET Core. Integrated SQL Server for fast and accurate stock data processing.",
+      sorio:
+        "AI-powered e-commerce automation for marketplace sellers. Cut reply times from 2+ hours to under 5 minutes with a Gemini-driven pipeline; built a secure fullstack SaaS (Next.js, React, Node.js, Supabase Postgres, JWT, Iyzico) with Trendyol API integration and AWS Amplify CI/CD.",
       aiFit:
         "Built an AI-powered virtual dressing room with Expo and React Native, letting users preview outfits on their own photos with visuals generated via the Google Gemini API.",
       expenseTracker:
@@ -177,6 +179,8 @@ export const translations = {
         "Node.js ve Express kullanarak esnek ve ölçeklenebilir bir API altyapısı geliştirdim. JWT ile güvenli kullanıcı yönetimi sağladım ve MongoDB ile veri işleme süreçlerini optimize ettim.",
       finshark:
         ".Net Core kullanarak, kullanıcıların borsa verilerini takip edebileceği sosyal medya odaklı bir API uygulaması geliştirdim. SQL Server veritabanı entegrasyonu ile hisse senedi verilerini hızlı ve doğru şekilde işledim.",
+      sorio:
+        "Pazaryeri satıcıları için yapay zekâ destekli e-ticaret otomasyon platformu. Gemini tabanlı pipeline ile yanıt sürelerini 2+ saatten 5 dakikanın altına indirdim; güvenli fullstack SaaS (Next.js, React, Node.js, Supabase Postgres, JWT, Iyzico), Trendyol API entegrasyonu ve AWS Amplify CI/CD kurdum.",
       aiFit:
         "Expo ve React Native ile TypeScript kullanarak geliştirdiğim yapay zeka destekli sanal giyinme odası. Kullanıcılar kendi görselleri üzerinde kıyafetleri deneyerek Google Gemini API ile oluşturduğum görsellerle nasıl göründüklerini anında önizleyebiliyor.",
       expenseTracker:
