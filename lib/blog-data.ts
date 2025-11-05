@@ -21,6 +21,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "slackin-mimarisi",
+    title: {
+      en: "Slack's Architecture",
+      tr: "Slack'in Mimarisi"
+    },
+    description: {
+      en: "A concise overview of Slack's architecture and the core components behind real-time collaboration.",
+      tr: "Slack'in mimarisine ve gerçek zamanlı işbirliğini sağlayan temel bileşenlere kısa bir bakış."
+    },
+    date: "2025-11-05",
+    publishedAt: "2025-11-05T10:00:00Z",
+    tags: ["System Design", "Architecture", "Messaging", "Slack"],
+    content: {
+      en: "A concise overview of Slack's architecture and the core components behind real-time collaboration.",
+      tr: "Slack'in mimarisine ve gerçek zamanlı işbirliğini sağlayan temel bileşenlere kısa bir bakış."
+    },
+    author: "Muhammet Mustafa Dincer",
+    externalUrl: "https://medium.com/@mmdincer/slackin-mimarisi-0fde99d62d38"
+  },
+  {
     slug: "load-balancing",
     title: {
       en: "Load Balancing",
