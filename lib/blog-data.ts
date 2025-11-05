@@ -50,8 +50,8 @@ export const blogPosts: BlogPost[] = [
       en: "Exploring load balancing techniques and their importance in distributed systems and web applications.",
       tr: "Dağıtık sistemlerde ve web uygulamalarında yük dengeleme teknikleri ve önemini inceleyen yazım."
     },
-    date: "2025-01-20",
-    publishedAt: "2025-01-20T10:00:00Z",
+    date: "2025-10-27",
+    publishedAt: "2025-10-27T10:00:00Z",
     tags: ["DevOps", "System Design", "Infrastructure"],
     content: {
       en: "Exploring load balancing techniques and their importance in distributed systems and web applications.",
